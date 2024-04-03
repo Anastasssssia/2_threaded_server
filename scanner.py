@@ -19,6 +19,7 @@ def scan_port(host, port):
 
         
     finally:
+             sock.close()
    
         
 def scan_ports(host):
